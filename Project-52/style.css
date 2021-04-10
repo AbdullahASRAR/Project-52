@@ -1,0 +1,45 @@
+h1{
+    color: yellowgreen;
+}
+h2{
+    color: yellowgreen;
+}
+p{
+    color: black;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+a:link{
+    color:yellowgreen;
+  }
+  a:visited{
+      color:white;
+  }
